@@ -1,0 +1,31 @@
+
+
+/***** CUSTOM PROPERTIES *****/
+
+:root{
+  --bg-header: rgb(44,62,80)
+}
+
+
+/***** GENERICS *****/
+
+
+
+
+/**** UTILITY ****/
+
+
+/* TODO REMOVE */
+.bdw{
+  border: 1px solid white
+}
+
+
+
+/*** Header ***/
+
+header{
+  background-color: var(--bg-header);
+  color: white;
+}
+
