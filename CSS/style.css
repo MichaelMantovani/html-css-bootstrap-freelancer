@@ -16,6 +16,10 @@
 
 /**** UTILITY ****/
 
+.round-img{
+  border-radius: 25px;
+}
+
 
 /* TODO REMOVE */
 .bsw{
