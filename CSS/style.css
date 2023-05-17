@@ -17,8 +17,16 @@
 
 
 /* TODO REMOVE */
-.bdw{
-  border: 1px solid white
+.bsw{
+  border: 1px solid white;
+}
+
+.bsb{
+  border: 1px solid black;
+}
+
+.bdr{
+  border: 1px dashed red;
 }
 
 
@@ -31,6 +39,8 @@ header{
 }
 
 
+
+
 /*** MAIN ***/
 
 /* Jumbotron */
@@ -39,3 +49,5 @@ header{
   background-color: var(--bg-jumbotron);
   color: white;
 }
+
+/* Portofolio */
