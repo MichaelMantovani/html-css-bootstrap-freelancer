@@ -20,6 +20,22 @@
   border-radius: 25px;
 }
 
+.even-star{
+  color: rgb(44,62,80);
+}
+
+.odd-star{
+  color: white;
+}
+
+.even-line{
+  border: 2px solid rgb(44,62,80);
+}
+
+.odd-line{
+  border: 2px solid white;
+}
+
 
 /* TODO REMOVE */
 .bsw{

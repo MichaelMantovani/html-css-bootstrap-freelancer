@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css' integrity='sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==' crossorigin='anonymous'/>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==' crossorigin='anonymous'/>
   <link rel="stylesheet" href="CSS/style.css">
   <title>Bootstrap freelancer</title>
 </head>
@@ -24,17 +25,32 @@
     <!-- Jumbotron -->
     <div class="bdr jumbotron">
       <div class="bw container-md text-center py-4">
-        <div class="bsw presentation">Pics and Name</div>
-        <div class="bsw">---------------------</div>
-        <div class="bsw">Skills</div>
+        <div class="row row-cols-1 mx-auto justify-content-center">
+          <img class="col-7 col-md-4 col-xxl-3" src="img/avatar.svg" alt="User pic">
+          <h1 class="col py-2">START BOOTSTRAP</h1>
+        </div>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-2 odd-line"></div>
+          <div class="col-1 p-0 odd-star">
+            <i class="fa-solid fa-star fa-2x"></i>
+          </div>
+          <div class="col-2 odd-line"></div>
+        </div>
+        <p class="h5 py-4">GRAPHIC ARTISTI - WEB DESIGNER - ILLUSTRATOR</p>
       </div>
     </div>
 
     <!-- Portfolio section -->
     <div class="portofolio">
-      <div class="container-md py-4">
-        <h2 class="text-center">PORTFOLIO</h2>
-        <div class="bsb text-center">________</div>
+      <div class="container-md py-4 text-center">
+        <h2>PORTFOLIO</h2>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-2 even-line"></div>
+          <div class="col-1 p-0 even-star">
+            <i class="fa-solid fa-star fa-2x"></i>
+          </div>
+          <div class="col-2 even-line"></div>
+        </div>
         <div class="row py-2 row-cols-1 row-cols-md-2 row-cols-xxl-3">
           <div class="col py-3">
             <img class="img-fluid round-img" src="img/cabin.png" alt="Cabina pic">
