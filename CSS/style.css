@@ -4,7 +4,8 @@
 
 :root{
   --bg-header: rgb(44,62,80);
-  --bg-odd-section: rgb(26,188,156)
+  --bg-odd-section: rgb(26,188,156);
+  --bg-top-footer: rgb(58,84,109);
 }
 
 
@@ -58,4 +59,19 @@ header{
 .about{
   background-color: var(--bg-odd-section);
   color: white;
+}
+
+
+/* Footer */
+
+footer{
+  color: white;
+}
+
+.top-footer{
+  background-color: var(--bg-top-footer);
+}
+
+.copyright{
+  background-color: var(--bg-header);
 }
