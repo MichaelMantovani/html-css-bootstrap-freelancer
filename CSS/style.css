@@ -4,7 +4,7 @@
 
 :root{
   --bg-header: rgb(44,62,80);
-  --bg-jumbotron: rgb(26,188,156)
+  --bg-odd-section: rgb(26,188,156)
 }
 
 
@@ -46,8 +46,16 @@ header{
 /* Jumbotron */
 
 .jumbotron{
-  background-color: var(--bg-jumbotron);
+  background-color: var(--bg-odd-section);
   color: white;
 }
 
 /* Portofolio */
+
+
+/* About */
+
+.about{
+  background-color: var(--bg-odd-section);
+  color: white;
+}
