@@ -35,25 +35,15 @@
   border: 2px solid white;
 }
 
-
-
 .bd-white{
   border-color: white;
 }
 
-
-/* TODO REMOVE */
-.bsw{
-  border: 1px solid white;
+.bg-btn-submit{
+  background-color: var(--bg-odd-section);
 }
 
-.bsb{
-  border: 1px solid black;
-}
 
-.bdr{
-  border: 1px dashed red;
-}
 
 
 
@@ -89,6 +79,21 @@ header{
 .about{
   background-color: var(--bg-odd-section);
   color: white;
+}
+
+/* Contact me */
+
+#contact .form-control{
+  border: 0;
+  border-bottom: 1px solid rgb(204,204,204);
+  border-radius: 0;
+  padding-left: 0;
+
+  font-size: 20px;
+}
+
+#contact ::placeholder{
+  color: black;
 }
 
 
