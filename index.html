@@ -11,15 +11,37 @@
 </head>
 <body>
 
-  <!-- Header navigation -->
+  <!-- Header -->
   <header>
-    <div class="container-md">
-        <div class="row py-4">
-          <div class="bsw col">Logo</div>
-          <div class="bsw col text-end">Hamburger menu</div>
+    <nav class="navbar navbar-expand-md  navbar-dark py-3">
+      <div class="container">
+
+        <!-- Title -->
+        <a class="navbar-brand fw-bold" href="#">START BOOTSTRAP</a>
+        <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation menu -->
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+          <ul class="navbar-nav fw-bold">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
   </header>
+  
+  
+  
   <main>
 
     <!-- Jumbotron -->
@@ -102,9 +124,15 @@
 
     <!-- Contact me section -->
     <div class="bdr conctact-me py-4">
-      <div class="container-md">
-        <div class="bsb text-center">CONTACT ME</div>
-        <div class="bsb text-center">---------------------</div>
+      <div class="container-md text-center">
+        <h2>CONTACT ME</h2>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-2 even-line"></div>
+          <div class="col-1 p-0 even-star">
+            <i class="fa-solid fa-star fa-2x"></i>
+          </div>
+          <div class="col-2 even-line"></div>
+        </div>
         <div class="bsb form">Name/email/Phone</div>
       </div>
     </div>
@@ -118,8 +146,19 @@
     <div class="bsw top-footer py-4">
       <div class="container-md">
         <div class="row row-cols-1 row-cols-md-3">
-          <div class="bsw col">Lorem ipsum dolor sit</div>
-          <div class="bsw col">Lorem ipsum dolor sit</div>
+          <div class="bsw col">
+            <h3>LOCATION</h3>
+            <p class="h3">2215 John Daniel Drive Clark, MO 54243</p>
+          </div>
+          <div class="bsw col">
+            <h3>AROUND THE WEB</h3>
+            <div class="round-bord">
+              <i class="fa-brands fa-facebook-f fa-lg"></i>
+            </div>
+            <i class="fa-brands fa-google-plus-g fa-lg"></i>
+            <i class="fa-brands fa-twitter fa-lg"></i>
+            <i class="fa-brands fa-linkedin-in fa-lg"></i>
+          </div>
           <div class="bsw col">Lorem ipsum dolor sit</div>
         </div>
       </div>
